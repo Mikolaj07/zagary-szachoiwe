@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#FF0000">
+
+    <TextView
+        android:id="@+id/textViewGracz1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gracz 1"
+        android:textAlignment="center"
+        android:textSize="64dp" />
+
+    <Button
+        android:id="@+id/buttonGracz1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="70sp"
+        android:backgroundTint="#FF9800"
+        android:text="03:00:00"
+       />
+
+    <Button
+        android:id="@+id/buttonGracz2"
+        android:layout_width="match_parent"
+        android:text="03:00:00"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#FF9800"
+        android:textSize="70sp"
+       />
+
+    <TextView
+        android:id="@+id/textViewGracz2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gracz 2"
+        android:textAlignment="center"
+        android:textSize="64dp"
+        />
+
+</LinearLayout>
